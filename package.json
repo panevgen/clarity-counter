@@ -1,0 +1,32 @@
+{
+  "name": "clarity-memory-counter",
+  "version": "0.0.0",
+  "author": {
+    "name": "Eugene Panasenko",
+    "email": "panevgen@i.ua"
+  },
+  "repository": "",
+  "private": true,
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^10",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@blockstack/clarity": "^0.2.0",
+    "@blockstack/clarity-native-bin": "^0.1.16",
+    "@types/jest": "^26.0.14",
+    "fs-extra": "^9.0.1"
+  }
+}
